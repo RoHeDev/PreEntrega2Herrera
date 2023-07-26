@@ -5,6 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("./imgs/terere.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 code {
@@ -22,7 +25,7 @@ code {
 .navbar-nav .nav-item .nav-link {
   font-size: 1.2rem;
   margin-right: 30px;
-  color: red;
+  color: rgb(255, 145, 0);
   font-family: sans-serif;
 }
 
@@ -38,8 +41,13 @@ code {
 
 .cart-notification {
   background-color: red;
-  color: white;
+  color: rgb(0, 0, 0);
   padding: 2px 5px;
   border-radius: 50%;
-  font-size: 0.8rem;
+  font-size: 1rem;
+}
+
+.item-list-container {
+  color: rgb(255, 145, 0);
+  text-align: center;
 }

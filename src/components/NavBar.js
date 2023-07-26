@@ -3,7 +3,7 @@ import CartWidget from "./CartWidget";
 
 const NavBar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-custom">
       <div className="container">
         <a className="navbar-brand" href="/">
           Terere
@@ -12,7 +12,7 @@ const NavBar = () => {
           <ul className="navbar-nav">
             <li className="nav-item">
               <a className="nav-link" href="/">
-                Home
+                Inicio
               </a>
             </li>
             <li className="nav-item">
