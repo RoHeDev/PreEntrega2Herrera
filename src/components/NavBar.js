@@ -6,7 +6,7 @@ const NavBar = () => {
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container">
         <a className="navbar-brand" href="/">
-          Brand - Mi Tienda
+          Terere
         </a>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
@@ -17,17 +17,17 @@ const NavBar = () => {
             </li>
             <li className="nav-item">
               <a className="nav-link" href="/">
-                Categoría 1
+                Mates
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="/">
-                Categoría 2
+                Tazas
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="/">
-                Categoría 3
+                Vasos
               </a>
             </li>
           </ul>
